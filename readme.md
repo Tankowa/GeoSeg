@@ -20,7 +20,7 @@
 </div>
 
 <div>
-  <em>Submitted to ECCV 2026</em>
+  <em>Submitted to neurips 2026</em>
 </div>
 
 <br>
