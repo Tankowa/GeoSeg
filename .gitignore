@@ -1,0 +1,48 @@
+# Editor / OS
+.claude
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Bytecode & local env
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Local tooling noise
+*.egg-info/
+.pytest_cache/
+
+# Weights & hub cache
+checkpoints/
+.cache/
+
+# Metrics / aggregation scripts (local only; not shipped in this repo)
+experiments/
+
+# --- GeoSeg release: no third-party baseline trees ---
+baselines/
+sam_mllm/
+GLaMM-RefSeg/
+S-VICE/
+
+# Benchmark data trees
+RS_*Benchmark*/
+
+# Common local run dirs
+output/
+tmp/
+test_sam_results/
+
+# Stray path artifact
+=0.17.0/
+
+test_sam/
+sam_mllm/CLIP_Surgery/models/
+CLIP_Surgery/checkpoints
+CLIP_Surgery/models
+CLIP/CLIP_Surgery/models/
